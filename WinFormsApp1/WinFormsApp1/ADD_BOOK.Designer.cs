@@ -111,6 +111,7 @@
             NBook_Price.Name = "NBook_Price";
             NBook_Price.Size = new Size(116, 23);
             NBook_Price.TabIndex = 7;
+            NBook_Price.TextChanged += NBook_Price_TextChanged;
             // 
             // ADD_NBook
             // 
